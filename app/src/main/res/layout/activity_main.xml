@@ -30,7 +30,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView10"
             app:layout_constraintRight_toLeftOf="@id/textView30"
             app:layout_constraintTop_toTopOf="parent" />
@@ -41,7 +40,6 @@
             android:layout_height="wrap_content"
             android:text="@string/G"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView20"
             app:layout_constraintRight_toLeftOf="@id/textView40"
             app:layout_constraintTop_toTopOf="parent"
@@ -53,7 +51,6 @@
             android:layout_height="wrap_content"
             android:text="@string/U"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView30"
             app:layout_constraintRight_toLeftOf="@id/textView50"
             app:layout_constraintTop_toTopOf="parent" />
@@ -63,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/T"
-            app:layout_constraintHorizontal_chainStyle="spread"
+
             app:layout_constraintLeft_toRightOf="@id/textView40"
             app:layout_constraintRight_toLeftOf="@id/textView60"
             app:layout_constraintTop_toTopOf="parent" />
@@ -74,7 +71,6 @@
             android:layout_height="wrap_content"
             android:text="@string/D"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView50"
             app:layout_constraintRight_toLeftOf="@id/textView70"
             app:layout_constraintTop_toTopOf="parent" />
@@ -85,7 +81,6 @@
             android:layout_height="wrap_content"
             android:text="@string/I"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView60"
             app:layout_constraintRight_toLeftOf="@id/textView80"
             app:layout_constraintTop_toTopOf="parent" />
@@ -96,7 +91,6 @@
             android:layout_height="wrap_content"
             android:text="@string/N"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView70"
             app:layout_constraintRight_toLeftOf="@id/textView90"
             app:layout_constraintTop_toTopOf="parent" />
@@ -107,7 +101,6 @@
             android:layout_height="19dp"
             android:text="@string/O"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView80"
             app:layout_constraintRight_toRightOf="@id/textView100"
             app:layout_constraintTop_toTopOf="parent" />
@@ -118,7 +111,6 @@
             android:layout_height="19dp"
             android:text="@string/V"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView90"
             app:layout_constraintRight_toRightOf="@id/label0"
             app:layout_constraintTop_toTopOf="parent" />
@@ -140,7 +132,7 @@
             android:layout_height="wrap_content"
             android:text="@string/S"
             app:layout_constraintBottom_toTopOf="@id/textView21"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -164,7 +156,6 @@
             android:layout_height="wrap_content"
             android:text="@string/G"
             app:layout_constraintBottom_toTopOf="@id/textView41"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView21"
@@ -264,10 +255,9 @@
             android:layout_height="wrap_content"
             android:text="@string/S"
             app:layout_constraintBottom_toTopOf="@id/textView22"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="spread" />
 
@@ -663,7 +653,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView13"
             app:layout_constraintRight_toLeftOf="@id/textView33"
             app:layout_constraintTop_toTopOf="parent" />
@@ -674,7 +663,6 @@
             android:layout_height="wrap_content"
             android:text="@string/G"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView23"
             app:layout_constraintRight_toLeftOf="@id/textView43"
             app:layout_constraintTop_toTopOf="parent" />
@@ -685,7 +673,6 @@
             android:layout_height="wrap_content"
             android:text="@string/U"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView33"
             app:layout_constraintRight_toLeftOf="@id/textView53"
             app:layout_constraintTop_toTopOf="parent" />
@@ -695,7 +682,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/T"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView43"
             app:layout_constraintRight_toLeftOf="@id/textView63"
             app:layout_constraintTop_toTopOf="parent" />
@@ -706,7 +692,6 @@
             android:layout_height="wrap_content"
             android:text="@string/D"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView53"
             app:layout_constraintRight_toLeftOf="@id/textView73"
             app:layout_constraintTop_toTopOf="parent" />
@@ -717,7 +702,6 @@
             android:layout_height="wrap_content"
             android:text="@string/I"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView63"
             app:layout_constraintRight_toLeftOf="@id/textView83"
             app:layout_constraintTop_toTopOf="parent" />
@@ -728,7 +712,6 @@
             android:layout_height="wrap_content"
             android:text="@string/N"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView73"
             app:layout_constraintRight_toLeftOf="@id/textView93"
             app:layout_constraintTop_toTopOf="parent" />
@@ -739,7 +722,6 @@
             android:layout_height="19dp"
             android:text="@string/O"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView83"
             app:layout_constraintRight_toLeftOf="@id/textView103"
             app:layout_constraintTop_toTopOf="parent" />
@@ -750,7 +732,6 @@
             android:layout_height="19dp"
             android:text="@string/V"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintLeft_toRightOf="@id/textView93"
             app:layout_constraintRight_toRightOf="@id/label3"
             app:layout_constraintTop_toTopOf="parent" />
